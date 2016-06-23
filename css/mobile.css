@@ -1,0 +1,308 @@
+@media screen and (max-width: 1000px)
+{
+    .menu
+    {
+        display: flex;
+
+        -webkit-justify-content: space-between;
+                justify-content: space-between;
+    }
+    .auth__register
+    {
+        font-size: 11px;
+    }
+    .auth__login
+    {
+        font-size: 11px;
+    }
+    .menu__item
+    {
+        font-size: 12px;
+    }
+    .trophy__one
+    {
+        width: 100%;
+    }
+    .trophey__value
+    {
+        font-size: 16px;
+
+        width: 55%;
+    }
+    .trophey__name
+    {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .trophy__string
+    {
+        display: block;
+    }
+    .line-vert
+    {
+        display: none;
+    }
+    .line-horiz
+    {
+        display: flex;
+
+        width: 92%;
+        height: 1px;
+        margin: auto;
+
+        background-color: #aaaca6;
+    }
+    .line-horiz_mob
+    {
+        display: flex;
+
+        width: 92%;
+        height: 1px;
+        margin: auto;
+
+        background-color: #aaaca6;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1000px)
+{
+    .auth
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+    .logo
+    {
+        width: 100%;
+    }
+    .menu__item
+    {
+        width: 49.5%;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+    .menu
+    {
+        flex-wrap: wrap;
+    }
+    .auth__register-icon
+    {
+        margin: auto;
+    }
+    .auth__login-icon
+    {
+        margin: auto;
+    }
+    .auth__login
+    {
+        padding: 7px 0 0 5.692308%;
+    }
+    .logo__img.flex-img
+    {
+        max-width: 80%;
+    }
+    .auth__login-icon
+    {
+        width: 20px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+    .header__slogan
+    {
+        width: 100%;
+    }
+    .header__slogan
+    {
+        width: 100%;
+    }
+    .header__adage
+    {
+        display: block;
+
+        padding: 15px;
+    }
+    .social
+    {
+        position: static;
+
+        display: flex;
+
+        width: 60%;
+        max-width: 200px;
+    }
+    .header__services
+    {
+        width: 100%;
+    }
+    .search
+    {
+        min-width: 63px;
+        max-width: 200px;
+        margin-top: 20px;
+        margin-bottom: 21px;
+    }
+    .announcement__pic
+    {
+        line-height: 3em;
+
+        display: block;
+    }
+    .vulnerability
+    {
+        margin-left: 0;
+    }
+    .layout
+    {
+        padding: 0 9px;
+    }
+    .published__item
+    {
+        width: 100%;
+    }
+    .published__string
+    {
+        display: block;
+    }
+    .paging-news-R
+    {
+        right: -22px;
+    }
+    .paging-news-L
+    {
+        left: -19px;
+    }
+    .center-gap
+    {
+        display: none;
+    }
+    .webka__block
+    {
+        width: 100%;
+
+        border-bottom: 1px solid grey;
+    }
+    .webka-border
+    {
+        border-right: none;
+    }
+
+    .webka-border2
+    {
+        border: none;
+    }
+    .graphics__half
+    {
+        width: 100%;
+    }
+    .graphics__banner-horizontal
+    {
+        display: inline-block;
+
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .caption
+    {
+        font-size: 18px;
+    }
+    .block__info
+    {
+        font-size: 16px;
+    }
+    .bright-subhead
+    {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    .webka__item
+    {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    .access-text
+    {
+        font-size: 16px;
+    }
+    .published__name,
+    .published__read,
+    .published__date
+    {
+        font-size: 16px;
+        line-height: 1.2em;
+    }
+    .published__date {
+        margin-bottom: 5px;
+    }
+    .published__caption
+    {
+        font-size: 16px;
+        line-height: 2.5em;
+    }
+    .download,
+    .enter-link
+    {
+        font-size: 16px;
+    }
+    .about-us__logo
+    {
+        width: 100%;
+        margin: auto;
+
+        text-align: center;
+    }
+    .about-info
+    {
+        width: 100%;
+    }
+    .about-us
+    {
+        padding: 20px 10px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 570px)
+{
+    .trophey__item
+    {
+        display: block;
+
+        text-align: center;
+    }
+    .trophey__attr
+    {
+        display: block;
+
+        margin: auto;
+    }
+    .trophey__name
+    {
+        margin-top: 13px;
+
+        text-align: center;
+    }
+    .trophey__value
+    {
+        width: 85%;
+        margin: auto;
+
+        text-align: center;
+    }
+    .trophey-img
+    {
+        margin-right: 0;
+    }
+    .trophey__text
+    {
+        line-height: 1.4em;
+
+        margin-top: 20px;
+    }
+    .comment_text
+    {
+        width: 80%;
+    }
+}
